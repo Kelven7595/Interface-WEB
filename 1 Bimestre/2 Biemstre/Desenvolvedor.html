@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Técnico em Desenvolvimento Web</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body{
+      background:linear-gradient(to bottom, #0f172a, #111827);
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:40px;
+    }
+    
+    .container{
+      display:flex;
+      flex-direction:column;
+      gap:35px;
+      align-items:center;
+    }
+    
+    .card{
+      width:850px;
+      background:#1e293b;
+      border-radius:30px;
+      padding:35px;
+      box-shadow:0 0 25px rgba(56, 189, 248, 0.25);
+      border:3px solid #38bdf8;
+      position:relative;
+      transition:0.3s;
+    }
+    
+    .card:hover{
+      transform:translateY(-5px) scale(1.01);
+      box-shadow:0 0 35px rgba(56, 189, 248, 0.5);
+    }
+    
+    .card::before{
+      content:"";
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:8px;
+      border-radius:30px 30px 0 0;
+      background:linear-gradient(to right, #38bdf8, #0ea5e9);
+    }
+    
+    h1{
+      color:#ffffff;
+      margin-bottom:15px;
+      font-size:42px;
+      text-align:center;
+      text-shadow:0 0 10px rgba(56, 189, 248, 0.6);
+    }
+    
+    .card h2{
+      color:#38bdf8;
+      margin-bottom:20px;
+      font-size:28px;
+      text-align:center;
+      text-shadow:0 0 8px rgba(56, 189, 248, 0.5);
+    }
+    
+    .card p{
+      color:#e5e7eb;
+      font-size:20px;
+      line-height:1.8;
+      text-align:justify;
+    }
+    
+    .imagem img{
+      width:100%;
+      max-width:850px;
+      height:auto;
+      border-radius:25px;
+      border:3px solid #38bdf8;
+      box-shadow:0 0 25px rgba(56, 189, 248, 0.35);
+    }
+    
+    </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Técnico em Desenvolvimento Web</h1>
+
+    <div class="card">
+
+      <h2>O que faz um Técnico em Desenvolvimento Web?</h2>
+
+      <p>
+        O técnico em desenvolvimento web cria sites, sistemas e aplicações para internet.
+        Ele trabalha com programação, design de páginas, banco de dados e manutenção de sites,
+        garantindo que tudo funcione corretamente e tenha uma boa aparência.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h2>Resumo do Salário</h2>
+
+      <p>
+        O salário de um técnico em desenvolvimento web pode variar conforme a experiência
+        e a empresa. Em média, no Brasil, o profissional pode ganhar entre
+        R$ 2.000 e R$ 5.000 por mês, podendo aumentar com especializações e experiência.
+      </p>
+
+    </div>
+
+    <div class="card">
+
+      <h2>Mercado De Trabalho</h2>
+
+      <p>
+        O mercado de trabalho para o técnico em desenvolvimento web está em crescimento,
+        pois muitas empresas precisam de sites, sistemas e aplicações para internet.
+        Esse profissional pode trabalhar em empresas de tecnologia, agências digitais,
+        lojas online ou até como freelancer. Além disso, a área oferece boas oportunidades
+        de emprego e possibilidade de crescimento profissional, principalmente
+        para quem busca especializações e aprende novas tecnologias.
+      </p>
+
+    </div>
+    <div class="card">
+
+      <h2>Formação Necessária</h2>
+
+      <p>
+        Para se tornar um técnico em desenvolvimento web, é importante ter conhecimentos em
+         informática, lógica de programação e tecnologias como HTML, CSS e JavaScript. O 
+         profissional pode fazer cursos técnicos, profissionalizantes ou graduação na área
+          de tecnologia. Além disso, é essencial continuar aprendendo novas ferramentas e 
+          linguagens para acompanhar a evolução da internet.
+    </p>
+        </div>
+    
+
+    </div>
+
+    <div class="imagem">
+      <img src="" alt="Desenvolvimento Web">
+    </div>
+
+  </div>
+
+</body>
+</html>
